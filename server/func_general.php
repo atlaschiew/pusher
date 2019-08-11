@@ -105,7 +105,7 @@ function logException( $e )
 
 function emailMe($a_sub, $a_msg) {
 	global $vars;
-	$ch = curl_init($url="https://websend.sendgird.net/error_sendmail.php?email=".implode(",", $vars['admin_email'])."&subject=".base64_encode($a_sub)."&message=".base64_encode($a_msg));
+	$ch = curl_init($url="https://[YOUR EMAIL PROVIDER]?email=".implode(",", $vars['admin_email'])."&subject=".base64_encode($a_sub)."&message=".base64_encode($a_msg));
 		
 	curl_exec($ch);
 	curl_close($ch);
