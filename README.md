@@ -2,7 +2,7 @@
 Pusher service by PHP7 + Swoole
 
 Introduction
-MadxPusher is a product developed by Madx Panel that aims to provide developer a simple way to push message from server side to client side in seamless way.
+Thanks to swoole's websocket wrapper makes this project complete in short time.
 
 How does pusher helps web application and micro services
 In high traffic system, most of us ever suffer from a slow process that could lag down the entire web server, this happens due to speed of opening new connection is faster than connection closing. Therefore with pusher, we could build up multi tier architeture in one single server where heavy process we could pull out from our frontend scripting and put the task into waiting list and later on executed by some scheduled tool such as cron job. Finally, the result of execution will then notify user via pusher.
