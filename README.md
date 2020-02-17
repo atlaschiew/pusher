@@ -1,4 +1,4 @@
-# madx-pusher
+# PHP-Pusher
 Pusher service by PHP7 + Swoole
 
 Introduction
