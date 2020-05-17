@@ -1,5 +1,5 @@
-# PHP-Pusher
-Pusher service by PHP7 + Swoole
+# PHP Pusher
+Pusher by PHP7 + Swoole
 
 Introduction
 Thanks to swoole's websocket wrapper makes this project complete in short time.
